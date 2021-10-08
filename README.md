@@ -1,14 +1,17 @@
-# Big-Rich-Man
+#### Big-Rich-Man
 this subject is depend on  Random Big Rich Man(瑞德大富翁) is monopoly-like game using random map to play. It's local game with 4 AI/Human player.
 
 including is https://git-lab-com/movep/Random-Big-Rich-Man
 
-Random-Big-Rich-Man-master.zip is sourcecode file 
 
-random-big-rich-man-1.0.0-SNAPSHOT is target file  
+## Files 
+
+# Random-Big-Rich-Man-master.zip is sourcecode file 
+
+# random-big-rich-man-1.0.0-SNAPSHOT is target file  
 "
 mvn exec:java
-# or
+ or
 java -jar random-big-rich-man-*.jar   " 
 
 to run it 
@@ -18,7 +21,7 @@ to run it
 
 
 
-Assets
+# Assets
 Image or Sound from these projects or the Internet:
 
 gtkmonop-0.3.0
@@ -26,18 +29,18 @@ kapitalist-0.4
 monopolie-0.9.7
 
 
-Install preconditions
+# Install preconditions
 
 Java 1.8.0 or newer
 Maven 2.2.1 or newer
 
 
-Game Features
+# Game Features
 
 Random map
 
 
-Game Rules
+# Game Rules
 
 Monopoly-like game rule
 Land Tax: each land $400
@@ -60,12 +63,12 @@ Player exceed start point will give $2000, but $0 if on the start point
 Go to jail stop 3 turns
 
 
-How to build and run
+# How to build and run
 to build:
 mvn package
 to run:
 mvn exec:java
-# or
+ or
 java -jar target/random-big-rich-man-*.jar
 
 
